@@ -3,9 +3,13 @@
 This project is a Streamlit-based web application that allows users to:
 
 ✅ Upload an image
+
 ✅ Provide a custom prompt
+
 ✅ Generate AI-based descriptions using Google Gemini
+
 ✅ Convert the generated text into speech (TTS)
+
 ✅ Translate the description into multiple Indian languages
 
 🚀 Features
