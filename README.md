@@ -101,8 +101,11 @@ http://localhost:8501
 
 ## 📁 Project Structure
 ├── app.py
+
 ├── README.md
+
 ├── requirements.txt
+
 └── 1.mp3 (generated at runtime)
 
 ## 📝 How It Works
