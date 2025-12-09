@@ -12,18 +12,18 @@ This project is a Streamlit-based web application that allows users to:
 
 ✅ Translate the description into multiple Indian languages
 
-🚀 Features
-1. Image Upload
+## 🚀 Features
+### 1. Image Upload
 
 Users can upload .jpg images for processing.
 
-2. Prompt-Based Description
+### 2. Prompt-Based Description
 
 A custom prompt is sent along with the uploaded image to generate a detailed description using:
 
 Google Generative AI (Gemini 1.5 Flash)
 
-3. Voice Generation (Text-to-Speech)
+### 3. Voice Generation (Text-to-Speech)
 
 The app uses pyttsx3 to convert the generated description into:
 
@@ -33,7 +33,7 @@ Female Voice
 
 And saves the audio as 1.mp3.
 
-4. Multi-Language Translation
+### 4. Multi-Language Translation
 
 Using googletrans, the generated text can be translated to:
 
@@ -53,11 +53,11 @@ Malayalam
 
 Marathi
 
-5. Memory Optimization
+### 5. Memory Optimization
 
 Streamlit’s session_state ensures the description is not re-generated unnecessarily.
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 Module / Library	Purpose
 Streamlit	Web app interface
 Google Generative AI (Gemini)	Image description generation
@@ -65,19 +65,21 @@ Pillow (PIL)	Image processing
 pyttsx3	Text-to-speech
 googletrans	Language translation
 asyncio	Async handling
-📦 Installation
-1. Clone the repository
+
+
+## 📦 Installation
+### 1. Clone the repository
 git clone https://github.com/your-username/ai-image-description.git
 cd ai-image-description
 
-2. Create a virtual environment (optional but recommended)
+### 2. Create a virtual environment (optional but recommended)
 python -m venv venv
 source venv/Scripts/activate   # Windows
 
-3. Install dependencies
+### 3. Install dependencies
 pip install -r requirements.txt
 
-4. Add your Gemini API Key
+### 4. Add your Gemini API Key
 
 Replace inside the code:
 
@@ -86,7 +88,7 @@ api_key = "YOUR_API_KEY"
 
 Or use a .env file.
 
-▶️ Running the Application
+## ▶️ Running the Application
 
 Run the Streamlit server:
 
@@ -97,13 +99,13 @@ This will open the app in your default browser at:
 
 http://localhost:8501
 
-📁 Project Structure
+## 📁 Project Structure
 ├── app.py
 ├── README.md
 ├── requirements.txt
 └── 1.mp3 (generated at runtime)
 
-📝 How It Works
+## 📝 How It Works
 
 User uploads an image and enters a prompt
 
@@ -119,7 +121,7 @@ Translate it into various languages
 
 Everything runs inside Streamlit interface
 
-⚠️ Important Notes
+## ⚠️ Important Notes
 
 Google Gemini API key is required for the app to work
 
@@ -127,6 +129,6 @@ pyttsx3 may behave differently based on system voice installation
 
 Translation quality depends on googletrans library
 
-📜 License
+## 📜 License
 
 This project is open-source. Use it freely for learning or extension.
