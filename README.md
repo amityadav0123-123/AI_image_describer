@@ -1,6 +1,6 @@
 # AI Image Description & Translation Web App
 
-# This project is a Streamlit-based web application that allows users to:
+This project is a Streamlit-based web application that allows users to:
 
 ✅ Upload an image
 ✅ Provide a custom prompt
